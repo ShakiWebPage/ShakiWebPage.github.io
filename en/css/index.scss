@@ -1,0 +1,14 @@
+.text-list {
+	list-style-type: none;
+	counter-reset: li;
+}
+.text-list li {
+	font-size: 16px;
+}
+
+.text-list li:before {
+  counter-increment: li;
+  content: counter(li, decimal-leading-zero);
+	color: #4070f4;
+	margin-right: 0.25em;
+}
