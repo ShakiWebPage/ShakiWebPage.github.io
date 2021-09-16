@@ -447,7 +447,16 @@ footer .text span a:hover{
     justify-content: center;
     width: 100%;
   }
+  .about .about-details .right-2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
   .about-details .right{
+    width: 90%;
+    margin: 40px 0;
+  }
+  .about-details .left-2{
     width: 90%;
     margin: 40px 0;
   }
@@ -460,6 +469,11 @@ footer .text span a:hover{
   .about .left img{
     height: 350px;
     width: 350px;
+  }
+  .about .right-2 img{
+    height: 350px;
+    width: 350px;
+    margin: 0 0 0 0px;
   }
 }
 
