@@ -328,7 +328,7 @@ section .button button:hover{
 }
 .skills-details .box{
   width: calc(100% / 2 - 20px);
-  margin: 20px 0;
+  margin: 20px 0 0 20px;
 }
 .skills-details .boxes .topic{
   font-size: 20px;
@@ -463,6 +463,9 @@ footer .text span a:hover{
   .services .boxes .box{
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
+  }
+  .about .about-details .right{
+    width: 100%;
   }
 }
 @media (max-width: 900px) {
